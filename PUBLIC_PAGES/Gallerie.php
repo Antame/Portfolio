@@ -18,17 +18,76 @@
             <header>        
             <main>
                 <h1>Mes réalisations </h1>
-                <p class="entete"><img src="" alt=""></p>
+                <br><br>
 
 
-        <script>index.js</script>
+                <div class="gallerie">
+                     
+                   
+                    <div class="grid-item">
+                        <a href="#" data-lightbox="" datga-title="">
+                            <img src="" alt="" width="480"/>
+                        </a>
+                        
+                    </div>
+                    <div class="grid-item">
+                        <a href="#" data-lightbox="" datga-title="">
+                            <img src="" alt="" width="480"/>
+                        </a>
+                        
+                    </div>
+                    <div class="grid-item">
+                        <a href="#" data-lightbox="" datga-title="">
+                            <img src="" alt="" width="480"/>
+                        </a>
+                        
+                    </div>
+                    
+                    <div class="grid-item">
+                        <a href="#" data-lightbox="" datga-title="">
+                            <img src="" alt="" width="480"/>
+                        </a>
+                        
+                    </div>
+                    <div class="grid-item">
+                        <a href="#" data-lightbox="" datga-title="">
+                            <img src="" alt="" width="480"/>
+                        </a>
+                        
+                    </div>
+                    <div class="grid-item">
+                        <a href="#" data-lightbox="" datga-title="">
+                            <img src="" alt="" width="480"/>
+                        </a>
+                        
+                    </div>
+                    <div class="grid-item">
+                        <a href="#" data-lightbox="" datga-title="">
+                            <img src="" alt="" width="480"/>
+                        </a>
+                        
+                    </div>
+                    <div class="grid-item">
+                        <a href="#" data-lightbox="" datga-title="">
+                            <img src="" alt="" width="480"/>
+                        </a>
+                        
+                    </div>
+
+
+                </div>
+
+
             
 
             
 
         </main>
-        <footer>
-
-        </footer>
+        <aside>
+        <p class="entete"><br><br>Contactez - moi pour un devis : </p>
+     
+        </aside>
+        
+        <script>index.js</script>
     </body>
 </html>

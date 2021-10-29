@@ -19,15 +19,15 @@
             <main>
                 <h1>Bienvenue </h1>
                 <p class="entete"><img src="" alt=""></p>
-
-
-        <script>index.js</script>
-            
+               
+       
            
 
         </main>
-        <footer>
-
-        </footer>
+        <aside>
+        <p class="entete"><br><br>Contactez - moi pour un devis : </p>
+     
+        </aside>
+        <script>index.js</script>
     </body>
 </html>

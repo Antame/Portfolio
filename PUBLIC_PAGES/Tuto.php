@@ -1,20 +1,36 @@
 <!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV</title>
-    <link rel="stylesheet" href="style.css" type="text/css">
-</head>
-<body>
-    
-    <?php
-        include "menu.php";
-    ?>
+<html>
+    <head>
+        <title>PORTFOLIO</title>
+        <link href="./style.css" rel="stylesheet">
+        <meta charset="8-UTF">
+        <meta name="viewport" content="width= device-width, initial-scale=1.0">
 
-    <section>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi debitis sequi excepturi asperiores aliquid fuga. Quidem earum maiores modi alias ipsum ducimus tempora suscipit tempore, explicabo, iure odio? Provident, dolore.</p>
-    </section>
-</body>
+    </head>
+    <body>
+        <div id="global">
+            <header>
+            <!-- Importation de la barre de navigation-->
+                <?php
+                    
+                    include "menu.php";
+                ?>
+            <header>        
+            <main>
+                <h1>Tutoriels </h1>
+                <p class="entete"><img src="" alt=""></p>
+
+
+        <script>index.js</script>
+            
+
+            
+
+        </main>
+        <aside>
+
+        <p class="entete"><br><br>Contactez - moi pour un devis : </p>
+     
+        </aside>
+    </body>
 </html>

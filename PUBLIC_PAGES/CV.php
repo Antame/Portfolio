@@ -27,8 +27,10 @@
             
 
         </main>
-        <footer>
-
-        </footer>
+        <aside>
+        <p class="entete"><br><br>Contactez - moi pour un devis : </p>
+     
+                
+        </aside>
     </body>
 </html>

@@ -19,8 +19,8 @@
             <main>
                 <h1>Contactez-moi</h1>
                 
-                <p class="entete"><img src="images/640px-contacts.jpg" /></p>
-                <h3 class="entete">Pour tout renseignement et devis: remplissez le formulaire ci-dessous :</h3>
+                <p class="entete"><img src="../images/contact-us.jpg" /></p> 
+                <h3 class="description">Pour tout renseignement et devis: remplissez le formulaire ci-dessous :</h3>
 
                 <form id="form1" name="form1" method="post" action="" class="contact">
                     <div><label for="frm1_nom">NOM et PRENOM : </label><input name="nom" type="text" id="frm1_nom" size="100" /></div>
@@ -30,15 +30,12 @@
                     <div><input type="submit" id="frm1_submit" value="Envoyer votre message" /></div>
                 </form>
 
+        
 
-        <script>index.js</script>
-            
-
-            
-
-        </main>
-        <footer>
+            </main>
+        <footer class="footer">
 
         </footer>
+        <script>index.js</script>
     </body>
 </html>
