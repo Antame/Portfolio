@@ -38,6 +38,13 @@ header{
 	list-style-position:inside;
    
 }
+.menu lu .home {
+    color: black;
+    background-color: chartreuse;
+}
+.menu ul .home a {color: black;
+    background-color: #A90331;
+}
 
 .menu a {
 	/*float:right;*/
@@ -57,9 +64,14 @@ header{
     /*margin-bottom: 50px;*/
 }
 
-.menu a:hover {
+/*.menu a:hover {
 	background-color:#A90331;
-    color: white;
+    color: white;*/
+}
+
+.menu a:active {color: black;
+    background-color: #A90331;
+
 }
         
 
