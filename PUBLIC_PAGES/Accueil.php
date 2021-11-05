@@ -31,15 +31,6 @@
                         </td>
                     </tr>
 
-                    <tr>
-                        <td><p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem ab provident magnam expedita voluptate nam suscipit sunt, quibusdam tempore inventore non autem.
-                             Mollitia odio repellat voluptate corporis. Consequuntur, neque nemo!</p>
-                        </td>
-                   
-                        <td><p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem ab provident magnam expedita voluptate nam suscipit sunt, quibusdam tempore inventore non autem.
-                             Mollitia odio repellat voluptate corporis. Consequuntur, neque nemo!</p>
-                        </td>
-                    </tr>
                 </table>
 
                 <div class="gallerie">
@@ -63,24 +54,14 @@
                          </a>
        
                  </div>
-        <p>  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus cupiditate voluptates necessitatibus amet rem. </p>
-        <p>Praesentium facilis pariatur eum laboriosam, fugit culpa enim at earum iure magni dolorum quod non ipsa!</p>
+        
                       
 
         </main>
 
         <aside>
-        <p class="entete"><br><br>Contactez - moi pour un devis : </p>
-        <!-- <ul class="sommaire">
-                
-            <li><a href="./?pg=Accueil">Acceuil</a></li>
-            <li><a href="./?pg=CV">CV</a></li>
-            <li><a href="./?pg=Gallerie">Gallerie</a></li>
-            <li><a href="./?pg=Liens">Liens</a></li>
-            <li><a href="./?pg=Tuto">Tuto</a></li>
-            <li><a href="./?pg=Contact">Contact</a></li>
-        </ul>-->
-                
+        <a href="./?pg=Contact"><br><br>Contact </a>
+     
         </aside>
         <script>index.js</script>
     </body>

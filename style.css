@@ -135,16 +135,15 @@ gallerie{
     width: 100%;
     height:auto;
     margin:  auto;
+    padding: auto;
         
     grid-template-columns: repeat(4, 1fr) ;
     grid-template-rows: 1fr; 
     gap: 10px;
     text-align: center;
+    align-items: center;
     
-    
-   
-    
-    
+ 
 
 }
 .grid-item{
@@ -153,7 +152,7 @@ gallerie{
     overflow: hidden;
     float: left;
     gap: 10px;
-    margin: auto; padding: auto;
+    margin: auto 0 auto 50px; padding: auto;
     border: 1px solid #A90331;
     
 }
@@ -212,46 +211,19 @@ gallerie{
 
 aside {
     width:150px;
-    height: 100px;
-   background-color: whitesmoke;
+    height: 200px;
+   background-color: #A90331;
    
 }
 
-footer .entete {/*
-    text-align: center;
-}
 
-footer .entete a {
-    text-decoration: none;
-    color: black;
-}
-
-footer .sommaire, .liens {
-	list-style-type:none;
-	padding:0;
-    text-align: center;*/
-}
-
-Aside .sommaire a, .liens a {
+aside a {
 	text-decoration:none;
-	color:#A90331;
+	color:whitesmoke;
+    background-color: #A90331;
     width: 150px;
     height: 200px;
 }
 
-footer .sommaire a:hover, .liens a:hover {
-	text-decoration:underline;
-	color:black;
-}
 
-
-
-#sousmenu a {
-    text-decoration: none;
-    color: black;
-}
-
-#sousmenu a:hover {
-    text-transform: uppercase;
-}
 
