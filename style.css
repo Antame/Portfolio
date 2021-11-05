@@ -209,7 +209,7 @@ gallerie{
 }
 
 
-aside {
+aside, .entete {
     width:150px;
     height: 200px;
    background-color: #A90331;
@@ -217,7 +217,7 @@ aside {
 }
 
 
-aside a {
+.entete aside a {
 	text-decoration:none;
 	color:whitesmoke;
     background-color: #A90331;

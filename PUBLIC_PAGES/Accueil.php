@@ -60,7 +60,7 @@
         </main>
 
         <aside>
-        <a href="./?pg=Contact"><br><br>Contact </a>
+       <p class="entete"> <a href="./?pg=Contact"><br><br>Contact </a></p>
      
         </aside>
         <script>index.js</script>
