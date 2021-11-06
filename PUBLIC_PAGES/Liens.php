@@ -15,19 +15,20 @@
                     
                     include "menu.php";
                 ?>
-            <header>        
+            </header>        
             <main>
                 <h1>Bienvenue </h1>
+                <a class="button" href="./?pg=Contact">Contactez-moi</a>
                 <p class="entete"><img src="" alt=""></p>
-               
-       
-           
+             
+                
+            </main>
+            <footer>
 
-        </main>
-        <aside>
-        <p class="entete"><br><br>Contactez - moi pour un devis : </p>
+                <p class="entete"><br><br>Contactez - moi pour un devis : </p>
      
-        </aside>
+            </footer>
         <script>index.js</script>
+        </div>
     </body>
 </html>

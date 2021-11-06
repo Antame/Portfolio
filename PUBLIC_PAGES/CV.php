@@ -15,11 +15,12 @@
                     
                     include "menu.php";
                 ?>
-            <header>        
+            </header>        
             <main>
                 <h1>Mes compétences</h1>
+                <a class="button" href="./?pg=Contact">Contactez-moi</a>
                 <p class="entete"><img src="" alt=""></p>
-
+        </div>                          
 
         <script>index.js</script>
             
@@ -27,10 +28,10 @@
             
 
         </main>
-        <aside>
-        <p class="entete"><br><br>Contactez - moi pour un devis : </p>
+        <footer>
+
+            <p class="entete"><br><br>Contactez - moi pour un devis : </p>
      
-                
-        </aside>
+        </footer>
     </body>
 </html>

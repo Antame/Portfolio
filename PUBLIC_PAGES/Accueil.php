@@ -15,10 +15,11 @@
                     
                     include "menu.php";
                 ?>
-            <header>        
+            </header>        
             <main>
                 <h1><strong>< MetA mArtine : " WebDeVeLOpPeR " ></strong> </h1>
-                <p class="entete"><img src="../images/web-development-4202909_960_720.webp" alt=""></p>
+                <a class="button" href="./?pg=Contact">Contactez-moi</a>
+                <p class="entete"><img src="images/blackWebDev.jpeg" width="400px" alt=""></p>
                 <h3>A propos</h3>
                 <table class="propos">
                     <tr>
@@ -53,16 +54,17 @@
                              <img src="" alt="" width=""/>Photo
                          </a>
        
-                 </div>
+                    </div>
+              
+                           
+
+            </main>
+
+            <footer>
+                
         
-                      
-
-        </main>
-
-        <aside>
-       <p class="entete"> <a href="./?pg=Contact"><br><br>Contact </a></p>
-     
-        </aside>
+            </footer>
+    </div>
         <script>index.js</script>
     </body>
 </html>

@@ -15,10 +15,11 @@
                     
                     include "menu.php";
                 ?>
-            <header>        
+            </header>        
             <main>
                 <h1>Mes réalisations </h1>
-                <br><br>
+                <a class="button" href="./?pg=Contact">Contactez-moi</a>
+                
 
 
                 <div class="gallerie">
@@ -76,17 +77,14 @@
 
 
                 </div>
+                
+            </main>
+            <footer>
 
-
-            
-
-            
-
-        </main>
-        <aside>
-        <p class="entete"><br><br>Contactez - moi pour un devis : </p>
+                <p class="entete"><br><br>Contactez - moi pour un devis : </p>
      
-        </aside>
+            </footer>
+        </div>
         
         <script>index.js</script>
     </body>
