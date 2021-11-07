@@ -17,7 +17,7 @@
                 ?>
             </header>        
             <main>
-                <h1>Mes réalisations </h1>
+                <h1>Gallerie : Mes réalisations </h1>
                 <a class="button" href="./?pg=Contact">Contactez-moi</a>
                 
 
@@ -27,52 +27,53 @@
                    
                     <div class="grid-item">
                         <a href="#" data-lightbox="" datga-title="">
-                            <img src="" alt="" width="480"/>
+                            <img src="" alt="" width="400"/>
                         </a>
                         
                     </div>
                     <div class="grid-item">
                         <a href="#" data-lightbox="" datga-title="">
-                            <img src="" alt="" width="480"/>
+                            <img src="" alt="" width="400"/>
                         </a>
                         
                     </div>
                     <div class="grid-item">
                         <a href="#" data-lightbox="" datga-title="">
-                            <img src="" alt="" width="480"/>
+                            <img src="" alt="" width="400"/>
                         </a>
                         
                     </div>
                     
                     <div class="grid-item">
                         <a href="#" data-lightbox="" datga-title="">
-                            <img src="" alt="" width="480"/>
+                            <img src="" alt="" width="400"/>
                         </a>
                         
                     </div>
                     <div class="grid-item">
                         <a href="#" data-lightbox="" datga-title="">
-                            <img src="" alt="" width="480"/>
+                            <img src="" alt="" width="400"/>
                         </a>
                         
                     </div>
                     <div class="grid-item">
                         <a href="#" data-lightbox="" datga-title="">
-                            <img src="" alt="" width="480"/>
+                            <img src="" alt="" width="400"/>
                         </a>
                         
                     </div>
                     <div class="grid-item">
                         <a href="#" data-lightbox="" datga-title="">
-                            <img src="" alt="" width="480"/>
+                            <img src="" alt="" width="400"/>
                         </a>
                         
                     </div>
                     <div class="grid-item">
                         <a href="#" data-lightbox="" datga-title="">
-                            <img src="" alt="" width="480"/>
+                            <img src="" alt="" width="400"/>
                         </a>
                         
+                    </div>
                     </div>
 
 

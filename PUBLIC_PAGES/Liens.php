@@ -20,6 +20,15 @@
                 <h1>Bienvenue </h1>
                 <a class="button" href="./?pg=Contact">Contactez-moi</a>
                 <p class="entete"><img src="" alt=""></p>
+                <div class="liens">
+                    <a href="#">lien1</a>
+                    <a href="#">lien2</a>
+                    <a href="#">lien3</a>
+                    <a href="#">lien4</a>
+                    <a href="#">lien5</a>
+                    <a href="#">lien6</a>
+
+                </div>
              
                 
             </main>

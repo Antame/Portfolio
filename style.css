@@ -17,7 +17,7 @@ header{
     /*background-image: url('images/web.jpg');
     background-repeat: repeat-y;background-size: cover;*/
     /*    background-color: whitesmoke; */  
-        width: 100%;
+    width: 100%;
        /* height: 520px;*/
     }
 
@@ -217,18 +217,37 @@ gallerie{
         color: #A90331;
 }
 
-/*.contact ::before{
-    width: 410px;
-    margin: 40px auto;
-    font-size: 20px;
-    padding: 40px auto;
-    /*border-bottom: solid 5px #A90331;
-    
-    background-color:rgb(39, 37, 37);
+.liens {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    background-color: lightgray;
+    opacity: 0.75;
     box-shadow: 0 5px 15px rgba(0,0,0,.5);
-    border-radius: 20px;
+    text-align: left;
+    margin-bottom: 100px;
+
+
+}
+.liens a{
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    color: rgb(1, 1, 44);
+    margin:40px;
     
-}*/
+}
+.tuto {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 10px;
+}
+.tuto a{width: 300px; height:300px;
+    background-color:hsla(200, 21%, 8%, 0.6)
+    
+}
+
 .contact {
     width: 410px;
     margin: 40px auto;
@@ -239,7 +258,7 @@ gallerie{
     background-color: hsla(200, 21%, 8%, 0.6);
     box-shadow: 0 5px 15px rgba(0,0,0,.75);
     border-radius: 20px;
-    
+  
 }
 
 .contact div label {
@@ -278,12 +297,12 @@ gallerie{
     border-left: lightgray solid 1px;
     background-color: white;
     opacity: 0.5;
-    color: rgb(1, 9, 54)
+    color: rgb(1, 9, 54);
 }
 .contact textarea:hover{
     background-color: whitesmoke;
 color: rgb(1, 1, 39);
-opacity: 0.8;}
+opacity: 0.;}
 
 .contact label[for="frm1_message"] {
     float: left;
@@ -299,7 +318,7 @@ opacity: 0.8;}
     color: #A90331;
     border: #A90331 solid 3px;
     background-color: white;
-    
+    border-spacing: ;   
     
 }
 
