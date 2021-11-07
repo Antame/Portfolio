@@ -79,10 +79,8 @@
                 </div>
                 
             </main>
-            <footer>
-
-                <p class="entete"><br><br>Contactez - moi pour un devis : </p>
-     
+            <footer class="footer">
+                <a href="#"><img src="./images/boutonContact-us.png" alt="" width="200px"></a>
             </footer>
         </div>
         

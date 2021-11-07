@@ -19,7 +19,7 @@
             <main>
                 <h1><strong>< MetA mArtine : " WebDeVeLOpPeR " ></strong> </h1>
                 <a class="button" href="./?pg=Contact">Contactez-moi</a>
-                <p class="entete"><img src="images/blackWebDev.jpeg" width="400px" alt=""></p>
+                <p class="entete"><img src="./images/blackWebDev.jpeg" width="400px" alt=""></p>
                 <h3>A propos</h3>
                 <table class="propos">
                     <tr>
@@ -55,14 +55,14 @@
                          </a>
        
                     </div>
+                </div>
               
                            
 
             </main>
 
-            <footer>
-                
-        
+            <footer class="footer">
+                <a href="#"><img src="./images/boutonContact-us.png" alt="" width="200px"></a>
             </footer>
     </div>
         <script>index.js</script>

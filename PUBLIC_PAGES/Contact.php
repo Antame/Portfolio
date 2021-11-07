@@ -18,10 +18,10 @@
             </header>        
             <main>
                 <h1>Contactez-moi</h1>
-                <a class="button" href="./?pg=Contact">Contactez-moi</a>
+                <a class="button" href="./?pg=Contact"> </a>
                 
-                <!--<p class="entete"><img src="./images/contact-us.jpg" /></p>-->
-                <h3 class="description">Contactez-moi pour tout renseignement/devis: </h3>
+                <h3 class="description">Pour tout renseignement/ devis:</br>
+                <img src="./images/boutonContact-us.png" alt="bouton clic" width="300px"> </h3>
 
                 <form id="form1" name="form1" method="post" action="" class="contact">
                     <div><label for="frm1_nom"></label><input name="nom" type="text" id="frm1_nom" size="100" placeholder="NOM"/></div>
@@ -35,7 +35,7 @@
 
             </main>
            <footer class="footer">
-
+                <a href="#"><img src="./images/boutonContact-us.png" alt="" width="200px"></a>
             </footer>
         </div>
         <script>index.js</script>

@@ -20,18 +20,13 @@
                 <h1>Mes compétences</h1>
                 <a class="button" href="./?pg=Contact">Contactez-moi</a>
                 <p class="entete"><img src="" alt=""></p>
-        </div>                          
+                            
 
-        <script>index.js</script>
-            
+            </main>
+            <footer class="footer">
+                <a href="#"><img src="./images/boutonContact-us.png" alt="" width="200px"></a>
+            </footer>
+        </div>
 
-            
-
-        </main>
-        <footer>
-
-            <p class="entete"><br><br>Contactez - moi pour un devis : </p>
-     
-        </footer>
     </body>
 </html>

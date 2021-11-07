@@ -99,6 +99,8 @@ main {
     background-repeat: no-repeat;
     /*background-size: cover;*/
     background-position: center;
+    align-items: center;
+    
    
 }
 
@@ -113,7 +115,7 @@ main h1 {
 	background-color: black;
 	font-family: Arial,sans-serif;
 	font-style: normal;
-	font: size 30px;
+	font-size: 30px;
 	color : white;
     height: 50px;
     line-height: 50px;
@@ -173,8 +175,8 @@ gallerie{
     display: inline-block;
     width: 100%;
     height:auto;
-    margin:  auto;
-    padding: auto;
+    margin:  auto  100px;
+    padding: auto 100px;
         
     grid-template-columns: repeat(4, 1fr) ;
     grid-template-rows: 1fr; 
@@ -182,25 +184,27 @@ gallerie{
     text-align: center;
     align-items: center;
     
+    
+    
  
 
 }
 .grid-item{
-    background-color: wheat;
+    background-color: whitesmoke;
     width: 300px; height: 300px;
     overflow: hidden;
     float: left;
     gap: 10px;
-    margin: auto 0 auto 50px; padding: auto;
+    margin: auto  auto 100px ; padding: auto;
     border: 1px solid #A90331;
     
 }
-/*.grid-item img{
+.grid-item img{
     
     border: 2px solid rgb(20, 19, 19);
     padding: 5px;
     max-height: 350px;
-}*/
+}
 
 
 .description {text-align: center;
@@ -212,7 +216,7 @@ gallerie{
     font-size: 20px;
     padding: 40px auto;
     border-bottom: solid 5px #A90331;
-    border-top: solid 5px #A90331;
+    
     background-color: transparent;
     /*box-shadow: grey;*/
     border-radius: 10px;
@@ -254,6 +258,13 @@ gallerie{
     font-size: 20px;
     border-radius: 20px;
     color: gray;
+}
+.footer {display: block;
+    clear: both;
+    margin-bottom: 50px;
+    position: relative;
+    height: 200px;
+    border-top: #A90331 solid 2px;
 }
 
 
