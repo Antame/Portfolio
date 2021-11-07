@@ -143,19 +143,21 @@ main h1 {
 }
        
 
-.entete {
+.entete {display: flex;
     text-align: center;
-    /*opacity: ;*/
-    /*background-color: #A90331;*/
-    width: 460px; height: 400px;
+    width: 460px; height: auto;
     margin:  auto ;
     padding: 5px auto;
+    margin-bottom: 100px;
 }
 .entete img {
-    width: 500px;
-    opacity: 0.6; 
+    width: 400px; height: auto;
+    /*opacity: 0.8; */
     padding: 30px 100px;
-    border:#A90331 solid 5px;}
+    border:#A90331 solid 5px;
+    
+}
+    
 table {
     margin-bottom: 100px;
     background-image: url('images/');
@@ -183,6 +185,7 @@ gallerie{
     gap: 10px;
     text-align: center;
     align-items: center;
+    justify-content: center;
     
     
     
@@ -190,13 +193,16 @@ gallerie{
 
 }
 .grid-item{
-    background-color: whitesmoke;
+    background-color: lightgrey;
+    /*opacity: 0.75;*/
     width: 300px; height: 300px;
     overflow: hidden;
     float: left;
     gap: 10px;
     margin: auto  auto 100px ; padding: auto;
     border: 1px solid #A90331;
+    justify-content: center;
+    align-items: center;
     
 }
 .grid-item img{
@@ -210,16 +216,29 @@ gallerie{
 .description {text-align: center;
         color: #A90331;
 }
-.contact {
-    width: 400px;
+
+/*.contact ::before{
+    width: 410px;
     margin: 40px auto;
     font-size: 20px;
     padding: 40px auto;
-    border-bottom: solid 5px #A90331;
+    /*border-bottom: solid 5px #A90331;
     
-    background-color: transparent;
-    /*box-shadow: grey;*/
-    border-radius: 10px;
+    background-color:rgb(39, 37, 37);
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+    border-radius: 20px;
+    
+}*/
+.contact {
+    width: 410px;
+    margin: 40px auto;
+    font-size: 20px;
+    padding: 40px auto;
+    /*border-bottom: solid 5px #A90331;*/
+    
+    background-color: hsla(200, 21%, 8%, 0.6);
+    box-shadow: 0 5px 15px rgba(0,0,0,.75);
+    border-radius: 20px;
     
 }
 
@@ -229,8 +248,10 @@ gallerie{
     line-height: 40px;
     width: 200px;
     text-align: right;
-    border-radius: 10px;
-    border-color: gray;
+    border-radius: 20px;
+    color: rgb(4, 15, 78);
+    
+    
 }
 
 .contact input {
@@ -238,13 +259,31 @@ gallerie{
     width: 400px;
     margin-bottom: 10px;
     border-radius: 10px;
+    color: rgb(20, 28, 73);
+    border-bottom: lightgray 3px;
+    border-right: lightgray 3px;
+    border-top: lightgray solid 0.5px;
+    border-left: lightgray solid 0.5px;
+    background-color: white ;
+    opacity: 0.6;
 }
 .contact textarea {
     height: 400px;
     width: 400px;
     resize: none;
     border-radius: 10px;
+    border-bottom: white solid 3px;
+    border-right: white solid 3px;
+    border-top: lightgray solid 1px;
+    border-left: lightgray solid 1px;
+    background-color: white;
+    opacity: 0.5;
+    color: rgb(1, 9, 54)
 }
+.contact textarea:hover{
+    background-color: whitesmoke;
+color: rgb(1, 1, 39);
+opacity: 0.8;}
 
 .contact label[for="frm1_message"] {
     float: left;
@@ -257,14 +296,23 @@ gallerie{
     margin-left: auto;
     font-size: 20px;
     border-radius: 20px;
-    color: gray;
+    color: #A90331;
+    border: #A90331 solid 3px;
+    background-color: white;
+    
+    
+}
+
+.contact input[type="submit"]:hover{
+    background-color:#A90331 ;
+    color: white;
 }
 .footer {display: block;
     clear: both;
     margin-bottom: 50px;
     position: relative;
     height: 200px;
-    border-top: #A90331 solid 2px;
+    border-top: #A90331 solid 1px;
 }
 
 
