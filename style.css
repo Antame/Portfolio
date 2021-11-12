@@ -172,7 +172,7 @@ table p {
     text-align: justify; 
    margin: 20px
 }
-gallerie{      
+.gallerie{      
     display: grid;
     display: inline-block;
     width: 100%;
