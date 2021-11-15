@@ -11,13 +11,16 @@
         <div id="global">
             <header>
             <!-- Importation de la barre de navigation-->
+                <button class="hamburger" id="hamburger">
+                    <i class="fas fa-bars"></i>
+                </button>
                 <?php
                     
                     include "menu.php";
                 ?>
             </header>        
             <main>
-                <h1><strong>< MetA mArtine : " WebDeVeLOpPeR " ></strong> </h1>
+                <h1><strong>< meta martine : " WebDeveloper " ></strong> </h1>
                 <a class="button" href="./?pg=Contact">Contactez-moi</a>
                 <p class="entete"><img src="./images/webDev.webp" width="400px" alt=""></p>
                 <h3>A propos</h3>
@@ -38,19 +41,19 @@
                      
                    
                      <div class="grid-item">
-                         <a href="#" data-lightbox="" datga-title="">
+                         <a href="#" data-lightbox="" data-title="">
                              <img src="" alt="" width=""/>Photo
                          </a>
                          
                      </div>
                      <div class="grid-item">
-                         <a href="#" data-lightbox="" datga-title="">
+                         <a href="#" data-lightbox="" data-title="">
                              <img src="" alt="" width=""/>Photo
                          </a>
                          
                      </div>
                      <div class="grid-item">
-                         <a href="#" data-lightbox="" datga-title="">
+                         <a href="#" data-lightbox="" data-title="">
                              <img src="" alt="" width=""/>Photo
                          </a>
        

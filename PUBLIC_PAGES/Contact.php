@@ -18,7 +18,7 @@
             </header>        
             <main>
                 <h1>Contactez-moi</h1>
-                <a class="button" href="./?pg=Contact"> </a>
+                <a class="button" href="./?pg=Contact">let's get in touch </a>
                 
                 <h3 class="description">Pour tout renseignement/ devis:</br>
                 <img src="./images/boutonContact-us.png" alt="bouton clic" width="300px"> </h3>
