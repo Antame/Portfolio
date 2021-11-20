@@ -3,6 +3,8 @@
     <head>
         <title>PORTFOLIO</title>
         <link href="./style.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+
         <meta charset="8-UTF">
         <meta name="viewport" content="width= device-width, initial-scale=1.0">
 

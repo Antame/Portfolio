@@ -326,13 +326,48 @@ opacity: 0.;}
     background-color:#A90331 ;
     color: white;
 }
+/**************footer*************/
 .footer {display: block;
     clear: both;
     margin-bottom: 50px;
     position: relative;
     height: 200px;
-    border-top: #A90331 solid 1px;
+    background-color: transparent; opacity: 0.75;
+    text-align: right;
+    box-shadow: 0 5px 15px rgba(0,0,0,.75);
 }
+.footer ul {
+    
+    display:flex;
+    position: relative;
+    background-color: rgb(2, 2, 153);
+    height: 25px;
+    top: 50px;
+    text-align: right;
+        
+  }
+  
+  .footer ul li {
+    list-style: none;
+    text-align: right;
+    
+  }
+  
+  .footer ul li a {
+    
+    text-align:right;
+    padding: 5px;
+    margin: 5px;
+    color:#A90331;
+        
+  }
+  
+  .footer ul li a:hover {
+    box-shadow: 0 2px 5px rgba(243, 239, 239, 0.3);
+    text-decoration:none;
+  }
+  
+  
 
 
 
