@@ -28,9 +28,7 @@
                     </form>
             </main>
 
-                    <?php
-                        include "footer.php"
-                    ?> 
+                  
         </div>
 <script>index.js</script>
 </body>
