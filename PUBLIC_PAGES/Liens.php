@@ -20,14 +20,15 @@
             <main>
                 <h1>Bienvenue </h1>
                 <a class="button" href="./?pg=Contact">Contactez-moi</a>
-                <p class="entete"><img src="" alt=""></p>
+                <p class="entete"><h2>Quelques liens utiles</h2>  </p>
+                <hr>
                 <div class="liens">
                     <a href="https://apprendre-php.com/index.html">Apprendre à programmer</a>
-                    <a href="#">lien2</a>
-                    <a href="#">lien3</a>
-                    <a href="#">lien4</a>
-                    <a href="#">lien5</a>
-                    <a href="#">lien6</a>
+                    <a href="https://j-willette.developpez.com/tutoriels/html/les-bases-du-html/?page=page_1">les bases du HTML</a>
+                    <a href="https://www.codeur.com/tuto/css/les-bases-du-css/">les bases du CSS</a>
+                    <a href="http://stylescss.free.fr/v2-tutoriels/responsive.php">La mise en place responsive</a>
+                    <a href="https://learncssgrid.com/">Apprendre à manier les grids en CSS</a>
+                    <a href="https://esokia.com/fr/blog/ux-ui-quest-ce-que-ca-signifie">Ux / UI design: quelques notions importantes ...</a>
 
                 </div>
              

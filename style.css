@@ -157,6 +157,18 @@ main h1 {
     border:#A90331 solid 5px;
     
 }
+ main h2 {
+     background-color: rgb(219, 198, 198);
+     width: 400px;
+     height: 50px;
+     margin: auto;
+     padding: auto;
+     text-justify: center; font-size: 30px;
+     /*color: rgb(1, 1, 44);*/ color: whitesmoke;
+     text-shadow: 0 5px 15px rgba(255, 255, 255, 0.75);
+     box-shadow: 0 5px 15px rgba(0, 0, 5, 0.75);
+     
+ }
     
 table {
     margin-bottom: 100px;
@@ -230,9 +242,9 @@ table p {
 
 }
 .liens a{
-    text-decoration: none;
+    text-decoration: underline;
     display: inline-block;
-    font-size: 20px;
+    font-size: 40px;
     color: rgb(1, 1, 44);
     margin:40px;
     
