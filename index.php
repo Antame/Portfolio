@@ -29,6 +29,8 @@ if(!isset($_GET['pg'])){
         case "Tuto":
             include_once "PUBLIC_PAGES/Tuto.php";
             break;
+        case "Admin":
+            include_once "PUBLIC_PAGES/Admin.php";
     default:
         include_once "PUBLIC_PAGES/Accueil.php";
 
