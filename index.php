@@ -31,8 +31,10 @@ if(!isset($_GET['pg'])){
             break;
         case "Admin":
             include_once "PUBLIC_PAGES/Admin.php";
+            break;
     default:
         include_once "PUBLIC_PAGES/Accueil.php";
+        
 
     }
 }

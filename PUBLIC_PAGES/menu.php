@@ -1,6 +1,7 @@
 <nav class="menu">
+        
     <ul>
- <li><a class="home" href="#"> >>>   </a></li>
+ <li><a class="home" href="./?page=Admin"> ADMIN </a></li>
         <li><a href="./?pg=Accueil">Home</a></li>
         <li><a href="./?pg=CV">CV</a></li>
         <li><a href="./?pg=Gallerie">Gallerie</a></li>

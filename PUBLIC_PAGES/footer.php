@@ -1,8 +1,8 @@
 <footer class="footer">
 
-    <p><a class="button" href="./?pg=Contact" width="200px"> Contactez-nous</a></p>
+    
     <ul> 
-    <p><a class="button" href="./?pg=Contact" width="200px"> Contactez-nous</a></p>
+    <<a class="button" href="./?pg=Contact" width="200px"> Contactez-nous</a></br>
 
         <h3>follow us:</h3></br>
         <li><a href="#"><i class="fab fa-facebook"></i></a></li>
