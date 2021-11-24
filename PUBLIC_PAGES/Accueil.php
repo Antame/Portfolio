@@ -4,6 +4,7 @@
         <title>PORTFOLIO</title>
         <link href="./style.css" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link href="lightbox/css/lightbox.min.css" rel="stylesheet" type="text/css" />
         <meta charset="8-UTF">
         <meta name="viewport" content="width= device-width, initial-scale=1.0">
@@ -21,44 +22,32 @@
             <main>
                 <h1><strong>< MetA mArtine : " WebDeVeLOpPeR " ></strong> </h1>
                 <a class="button" href="./?pg=Contact">Contactez-moi</a>
-                <p class="entete"><img src="./images/webDev.webp" width="400px" alt=""></p>
-               <!-- <h3>A propos</h3>
+                <a class="entete"><img src="./images/webDev.webp" width="400px" alt=""></a>
+               
 
-                <table class="propos">
-                    <tr>
-                        <td><p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem ab provident magnam expedita voluptate nam suscipit sunt, quibusdam tempore inventore non autem.
-                             Mollitia odio repellat voluptate corporis. Consequuntur, neque nemo!</p>
-                        </td>
+
+                <div class="service">
+                <h2>Mon but est de développer des interfaces web adaptées pour mes clients</h2>
+               
                    
-                        <td><p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem ab provident magnam expedita voluptate nam suscipit sunt, quibusdam tempore inventore non autem.
-                             Mollitia odio repellat voluptate corporis. Consequuntur, neque nemo!</p>
-                        </td>
-                    </tr>
+                     <div class="grid-itemA">
+                                              
+                             <p>Création sites internet</p>
+                             <span class="lv"> </span>
+                             <p>Web design </p>
+                             <span class="lv"> </span>
+                             <p>Création logo</p>
 
-                </table>
-
-                <div class="gallerie">
+                                         
+                     </div>
                      
-                   
-                     <div class="grid-item">
-                         <a href="#" data-lightbox="" datga-title="">
-                             <img src="" alt="" width=""/>Photo
-                         </a>
-                         
+                    <div class="grid-itemA">
+                        
+                             <p>Analyse des besoins</p> <span class="lv"> </span><p>cohérence visuelle </p><span class="lv"> </span><p> cahier des charges</p>
+                            
                      </div>
-                     <div class="grid-item">
-                         <a href="#" data-lightbox="" datga-title="">
-                             <img src="" alt="" width=""/>Photo
-                         </a>
-                         
-                     </div>
-                     <div class="grid-item">
-                         <a href="#" data-lightbox="" datga-title="">
-                             <img src="" alt="" width=""/>Photo
-                         </a>
-       
-                    </div>
-                </div>-->
+                  
+                </div>
                                       
 
             </main>
