@@ -28,6 +28,7 @@ header{
     position: sticky;
     position: absolute;
     margin-bottom: 50px;
+    display: grid                                 ;
 }
 
 .menu ul {
@@ -184,6 +185,15 @@ table p {
     text-align: justify; 
    margin: 20px
 }
+
+.services {
+    display: grid;
+    grid-template-columns: repeat (1fr);
+    gap: 20px;
+    text-align: center;
+    margin: auto 100px;
+    padding : auto;
+}
 .gallerie{      
     display: grid;
     display: inline-block;
@@ -198,9 +208,6 @@ table p {
     text-align: center;
     align-items: center;
     justify-content: center;
-    
-    
-    
  
 
 }
@@ -232,20 +239,22 @@ table p {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    background-color: lightgray;
+    background-color: rgb(219, 198, 198);
     opacity: 0.75;
     box-shadow: 0 5px 15px rgba(0,0,0,.5);
     text-align: left;
     margin-bottom: 100px;
+    gap: 10px;
 
 
 }
 .liens a{
-    text-decoration: underline;
+    text-decoration: none;
     display: inline-block;
-    font-size: 40px;
+    font-size: 30px;
     color: rgb(1, 1, 44);
     margin:40px;
+   border-bottom: rgb(252, 224, 224) solid 2px;
     
 }
 .tuto {
@@ -254,7 +263,7 @@ table p {
     grid-template-rows: 1fr;
     gap: 10px;
 }
-.tuto a{width: 300px; height:300px;
+.tuto a {width: 100px; height:100px;
     background-color:hsla(200, 21%, 8%, 0.6)
     
 }
@@ -367,7 +376,7 @@ opacity: 0.;}
     padding: 5px;
     margin: 5px;
     color:#A90331;
-    width:20px;
+    width:30px;
     box-shadow: 0 5px 15px rgba(0,0,0,.75);
 
         
@@ -378,12 +387,22 @@ opacity: 0.;}
     text-decoration:none;
        
   }
+  .footer h3 {
+      color: black;
+      padding: 50px;
+      
+  }
 
   .footer p a {
       width: 100px;
       background-color: black;
       text-decoration: none;
 
+  }
+  .footer .button { 
+      position: absolute;
+      bottom: 20px;
+     left: 20px;
   }
   
   

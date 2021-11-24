@@ -11,6 +11,6 @@
         <li><a href="#"><i class="fab fa-instagram"></i></a></li>
     </ul>
     
-    <a class="button" href="./?pg=admin">ADMIN</a>
+    <a class="button" href="./?pg=Admin">ADMIN</a>
 
 </footer>
