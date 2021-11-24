@@ -385,6 +385,42 @@ opacity: 0.;}
       text-decoration: none;
 
   }
+
+  @media screen and (min-width:1281px) {
+    #global {
+        /* définition de la grille de mise en page */
+        grid-template-columns: 1fr 4fr;
+        grid-template-areas:
+        "menu entete"
+        "menu contenu";
+    }
+    
+    .menu {
+        display:block;   /* on affiche cette zone pour les grands écrans */
+        background-color:#CCC;  /* couleur de fond pour toute la colonne de gauche */
+        height:100%;
+    }
+
+    .menu ul {
+        /* on annule cette hauteur car le UL doit occuper toute la hauteur du menu */
+        /*height: 50px;*/
+        height:auto;
+
+        /* on efface la bordure inutile dans la colonne */
+        border:none;
+        
+
+        /* on annule les espaces de part et d'autre du menu */
+        padding:0px;
+    }
+    
+    .menu a {
+        float:none;     /* l'élément de menu n'est plus positionné en flottant */
+        padding: 0px;   /* on annule les espacements */
+        width:100%;     /* l'élément de menu occupe toute la largeur de sa zone (ul) */
+    }
+    
+
   
   
 
