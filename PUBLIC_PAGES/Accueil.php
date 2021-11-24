@@ -22,40 +22,30 @@
                 <h1><strong>< MetA mArtine : " WebDeVeLOpPeR " ></strong> </h1>
                 <a class="button" href="./?pg=Contact">Contactez-moi</a>
                 <p class="entete"><img src="./images/webDev.webp" width="400px" alt=""></p>
-               <!-- <h3>A propos</h3>
+             <h2>A propos</h2>
+                
+             
+        
+                <h2> Nos services : </h2>
+               
 
-                <table class="propos">
-                    <tr>
-                        <td><p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem ab provident magnam expedita voluptate nam suscipit sunt, quibusdam tempore inventore non autem.
-                             Mollitia odio repellat voluptate corporis. Consequuntur, neque nemo!</p>
-                        </td>
-                   
-                        <td><p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem ab provident magnam expedita voluptate nam suscipit sunt, quibusdam tempore inventore non autem.
-                             Mollitia odio repellat voluptate corporis. Consequuntur, neque nemo!</p>
-                        </td>
-                    </tr>
-
-                </table>
-
-                <div class="gallerie">
+                <div class="services">
                      
                    
                      <div class="grid-item">
-                         <a href="#" data-lightbox="" datga-title="">
-                             <img src="" alt="" width=""/>Photo
-                         </a>
+                         
+                             <img src="" alt="" width=""/><p>Création sites internet </p>
                          
                      </div>
                      <div class="grid-item">
-                         <a href="#" data-lightbox="" datga-title="">
-                             <img src="" alt="" width=""/>Photo
-                         </a>
                          
+                             <img src="" alt="" width=""/><p> Web design</p>
+                        
                      </div>
                      <div class="grid-item">
-                         <a href="#" data-lightbox="" datga-title="">
-                             <img src="" alt="" width=""/>Photo
-                         </a>
+                         
+                             <img src="" alt="" width=""/> <p>création applications mobiles </p>
+                         
        
                     </div>
                 </div>-->

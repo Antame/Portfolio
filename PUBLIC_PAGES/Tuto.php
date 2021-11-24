@@ -22,16 +22,19 @@
                 <a class="button" href="./?pg=Contact">Contactez-moi</a>
                 <p class="entete"><img src="" alt=""></p>
                 <div class="tuto">
-                    
-                    <a href="https://www.alsacreations.com/article/lire/53-Guide-de-survie-du-positionnement-CSS.html">tuto1: Guide de survie du positionnement</a>
-                    <p>Ce tutoriel est normalement destiné aux personnes ayant déjà des notions de base sur ce sujet.
+                    <div>
+                        <a href="https://www.alsacreations.com/article/lire/53-Guide-de-survie-du-positionnement-CSS.html">tuto1: Guide de survie du positionnement</a>
+                            <p>Ce tutoriel est normalement destiné aux personnes ayant déjà des notions de base sur ce sujet.
 Mais hélas, le sujet est traité de manière superficiel. Le texte ne présente aucun exemple, aucune ligne de code ni visuel. Le sujet n’a pas été paufiné et je ne conseille donc pas ce tutoriel.
 </p>
-                    <a href="https://www.vulgarisation-informatique.com/css-positionnement.php">tuto2 :Positionnement et affichage CSS</a>
-                    <p>Dans ce tutoriel, l’explication est assez claire, simple et fourni.
+                    </div>
+                    <di>
+                        <a href="https://www.vulgarisation-informatique.com/css-positionnement.php">tuto2 :Positionnement et affichage CSS</a>
+                        <p>Dans ce tutoriel, l’explication est assez claire, simple et fourni.
 L’apprenti sera heureux de voir des exemples d’applications ainsi que le code s’y rapportant.
 Je conseille ce tutoriel.
 </p>
+                    </div>
                 </div>
 
                                
