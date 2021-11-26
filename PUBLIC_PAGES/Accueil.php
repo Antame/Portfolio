@@ -20,7 +20,7 @@
                 ?>
             </header>        
             <main>
-                <h1><strong>< MetA mArtine : " WebDeVeLOpPeR " ></strong> </h1>
+                <h1><strong>< Meta martine : " WebDeVeLOpPeR " ></strong> </h1>
                 <a class="button" href="./?pg=Contact">Contactez-moi</a>
                 <a class="entete"><img src="./images/webDev.webp" width="400px" alt=""></a>
                
