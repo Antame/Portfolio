@@ -89,21 +89,15 @@ header{
 
 /*Contenu */
 main {
-	width:1280px;
+	width: 90%;
 	text-align:center;
-   padding-bottom: 0px;
-    margin-bottom: 20px;
-   /* background-color: transparent;/*/
-   /*background-image: url('images/reseauBlanc.jpg');*/
-    background-repeat: no-repeat;
-    /*background-size: cover;*/
-    background-position: center;
+    margin: auto;
     align-items: center;
     
    
 }
 
-main p, main ul, main h2, main h3 {
+main p, main ul {
     margin: 20px 30px;
 	font-size:20px;
 }
@@ -120,7 +114,9 @@ main h1 {
     line-height: 50px;
     text-align: center;
     border-bottom: black solid 1px;
-    margin-bottom: 200px;}
+    margin-bottom: 200px;
+    
+}
 
 .button {background-color: #A90331;
     /*top: 100px;*/
@@ -137,23 +133,21 @@ main h1 {
     text-decoration: none;
     line-height: 50px;
     transition: all 0.3s ease;
-    
-    
-    
+     
 
 }
-       
-
+  
 .entete {display: flex;
     text-align: center;
     width: 460px; height: auto;
     margin:  auto ;
     padding: 5px auto;
     margin-bottom: 100px;
+    
 }
 .entete img {
     width: 400px; height: auto;
-    /*opacity: 0.8; */
+    opacity: 0.8; 
     padding: 30px 100px;
     border:#A90331 solid 5px;
     
@@ -161,29 +155,36 @@ main h1 {
  main h2 {
      background-color: rgb(219, 198, 198);
      width: 400px;
-     height: 50px;
      margin: auto;
      padding: auto;
      text-justify: center; font-size: 30px;
-     /*color: rgb(1, 1, 44);*/ color: whitesmoke;
+     /*color: rgb(1, 1, 44);*/ color: rgb(2, 2, 54);
      text-shadow: 0 5px 15px rgba(255, 255, 255, 0.75);
-     box-shadow: 0 5px 15px rgba(0, 0, 5, 0.75);
+     box-shadow: 0 5px 15px rgba(242, 242, 245, 0.75);
      
  }
     
-table {
+.service {
+    display: grid;
+    background-color: rgb(219, 198, 198);
+    grid-template-columns: repeat(3, 1fr);
+    /*gap: 10px white solid;*/
     margin-bottom: 100px;
-    background-image: url('images/');
-}
 
-table td{
-    border-right: #A90331 solid 1px;
-    border-left: #A90331 solid 1px;
 }
+.service .itemA{
+    width:100px;
+    height: 200px;
+    text-align: center;
+    border-left: 2px solid whitesmoke;
 
-table p {
-    text-align: justify; 
-   margin: 20px
+}
+.lv{
+    display: inline-block;
+
+    border-left: 2px solid whitesmoke;
+    height: 40px;
+    
 }
 
 .services {
@@ -202,14 +203,19 @@ table p {
     margin:  auto  100px;
     padding: auto 100px;
         
-    grid-template-columns: repeat(4, 1fr) ;
+    grid-template-columns: 1fr 1fr 1fr ;
     grid-template-rows: 1fr; 
     gap: 10px;
+<<<<<<< HEAD
+    
+    
+=======
     text-align: center;
     align-items: center;
     justify-content: center;
  
 
+>>>>>>> d09d6724780a61ed0d9b37538ef8a97e37c8a96d
 }
 .grid-item{
     background-color:  rgb(219, 198, 198);
@@ -244,28 +250,59 @@ table p {
     box-shadow: 0 5px 15px rgba(0,0,0,.5);
     text-align: left;
     margin-bottom: 100px;
+<<<<<<< HEAD
+    
+=======
     gap: 10px;
+>>>>>>> d09d6724780a61ed0d9b37538ef8a97e37c8a96d
 
 
 }
 .liens a{
+<<<<<<< HEAD
+    text-decoration:none;
+    display: inline-block;
+    font-size: 30px;
+    color: rgb(1, 1, 87);
+    margin:40px;
+    border-bottom: 1px solid whitesmoke;
+=======
     text-decoration: none;
     display: inline-block;
     font-size: 30px;
     color: rgb(1, 1, 44);
     margin:40px;
    border-bottom: rgb(252, 224, 224) solid 2px;
+>>>>>>> d09d6724780a61ed0d9b37538ef8a97e37c8a96d
     
 }
 .tuto {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     grid-template-rows: 1fr;
+    grid-template-areas:
+   
     gap: 10px;
+    background-color: rgb(219, 198, 198);
+    color:rgb(1, 1, 87);
 }
+<<<<<<< HEAD
+.tuto a{width: 100px; height:100px;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+=======
 .tuto a {width: 100px; height:100px;
     background-color:hsla(200, 21%, 8%, 0.6)
+>>>>>>> d09d6724780a61ed0d9b37538ef8a97e37c8a96d
     
+}
+.tuto p {
+    font-size: 20px;
+    color:rgb(4, 15, 78);
+    text-align: justify;
 }
 
 .contact {
@@ -399,11 +436,131 @@ opacity: 0.;}
       text-decoration: none;
 
   }
+<<<<<<< HEAD
+
+  .footer .button {
+      float: right;
+      width: 100px;
+      height: 30px;
+      margin-top: 30px;
+      text-align: center;
+      line-height: 30px;
+  }
+ 
+  @media screen and (max-width : 800px){
+      #global {
+          grid-template-columns: 1fr;
+          grid-template-areas:
+          "entete"
+          "contenu";
+      }
+      .menu{
+          overflow: hidden;
+          
+
+      }
+      .menu a:not(:first-child), .dropdown .dropbtn {
+        display: none;}
+      .menu a {
+          display: block;}
+    
+      .menu li a:hover {
+
+      }
+      
+      
+      main{
+          width :100%
+      }
+      main h1 {
+        width: 95%;
+        position: absolute;
+        margin-top: 50px;
+      }
+
+      .button {
+
+      }
+      .entete {
+        
+         
+      }
+      .service {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
+    .gallerie {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
+    .liens {grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        justify-content: center;
+        justify-items: center;
+        margin: auto;
+        padding : auto;
+        width: 95%;
+
+    }
+    .liens a,p { text-align: center;
+                 margin:auto;
+                 justify-content: center;
+                 align-items: center;
+
+    }
+    .tuto {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        justify-content: center;
+        justify-items: center;
+    }
+    .footer{
+        text-align: center;
+        
+    }
+
+      
+  }
+  @media screen and (min-width:1281px) {
+    #global {
+        /* définition de la grille de mise en page */
+        grid-template-columns: 1fr 4fr;
+        grid-template-areas:
+        "menu entete"
+        "menu contenu";
+    }
+    
+    .menu {
+        margin-left: 20px;
+        display:block;   
+        background-color: whitesmoke;
+        width: 200px;
+    }
+
+    .menu ul {
+        
+    }
+        height:auto; 
+    
+        
+        border:none;
+       
+    }
+    
+    .menu a {
+        float:none;     
+        padding: 0px ; 
+    
+
+=======
   .footer .button { 
       position: absolute;
       bottom: 20px;
      left: 20px;
   }
+>>>>>>> d09d6724780a61ed0d9b37538ef8a97e37c8a96d
   
   
 
