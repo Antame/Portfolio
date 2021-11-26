@@ -29,9 +29,15 @@ if(!isset($_GET['pg'])){
         case "Tuto":
             include_once "PUBLIC_PAGES/Tuto.php";
             break;
+<<<<<<< HEAD
             case "Admin":
                 include_once "PUBLIC_PAGES/Admin.php";
                 break;
+=======
+        case "Admin":
+            include_once "PUBLIC_PAGES/Admin.php";
+            break;
+>>>>>>> d09d6724780a61ed0d9b37538ef8a97e37c8a96d
 
     default:
         include_once "PUBLIC_PAGES/Accueil.php";
@@ -40,7 +46,4 @@ if(!isset($_GET['pg'])){
     }
 }
 
-"./PUBLIC_PAGES/Admin.php"
-
-?>
    

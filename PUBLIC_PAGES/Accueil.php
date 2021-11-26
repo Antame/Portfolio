@@ -22,6 +22,7 @@
             <main>
                 <h1><strong>< Meta martine : " WebDeVeLOpPeR " ></strong> </h1>
                 <a class="button" href="./?pg=Contact">Contactez-moi</a>
+<<<<<<< HEAD
                 <a class="entete"><img src="./images/webDev.webp" width="400px" alt=""></a>
                
 
@@ -48,6 +49,36 @@
                      </div>
                   
                 </div>
+=======
+                <p class="entete"><img src="./images/webDev.webp" width="400px" alt=""></p>
+             <h2>A propos</h2>
+                
+             
+        
+                <h2> Nos services : </h2>
+               
+
+                <div class="services">
+                     
+                   
+                     <div class="grid-item">
+                         
+                             <img src="" alt="" width=""/><p>Création sites internet </p>
+                         
+                     </div>
+                     <div class="grid-item">
+                         
+                             <img src="" alt="" width=""/><p> Web design</p>
+                        
+                     </div>
+                     <div class="grid-item">
+                         
+                             <img src="" alt="" width=""/> <p>création applications mobiles </p>
+                         
+       
+                    </div>
+                </div>-->
+>>>>>>> d09d6724780a61ed0d9b37538ef8a97e37c8a96d
                                       
 
             </main>

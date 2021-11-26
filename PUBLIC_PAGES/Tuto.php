@@ -25,6 +25,7 @@
                 Voici les liens de deux tutos qui vous permettront de vous familiariser avec cette notion : </p><br>
                 </div><br>
                 <div class="tuto">
+<<<<<<< HEAD
                     
                     <a href="https://www.alsacreations.com/article/lire/53-Guide-de-survie-du-positionnement-CSS.html"><h2> Guide de survie du positionnement</h2></a>
                     <p>Ce tutoriel est normalement destiné aux personnes ayant déjà des notions de base sur ce sujet.
@@ -32,9 +33,21 @@ Mais hélas, le sujet est traité de manière superficiel. Le texte ne présente
 </p>
                     <a href="https://www.vulgarisation-informatique.com/css-positionnement.php"><h2>Positionnement et affichage CSS</h2></a>
                     <p>Dans ce tutoriel, l’explication est assez claire, simple et fourni.
+=======
+                    <div>
+                        <a href="https://www.alsacreations.com/article/lire/53-Guide-de-survie-du-positionnement-CSS.html">tuto1: Guide de survie du positionnement</a>
+                            <p>Ce tutoriel est normalement destiné aux personnes ayant déjà des notions de base sur ce sujet.
+Mais hélas, le sujet est traité de manière superficiel. Le texte ne présente aucun exemple, aucune ligne de code ni visuel. Le sujet n’a pas été paufiné et je ne conseille donc pas ce tutoriel.
+</p>
+                    </div>
+                    <di>
+                        <a href="https://www.vulgarisation-informatique.com/css-positionnement.php">tuto2 :Positionnement et affichage CSS</a>
+                        <p>Dans ce tutoriel, l’explication est assez claire, simple et fourni.
+>>>>>>> d09d6724780a61ed0d9b37538ef8a97e37c8a96d
 L’apprenti sera heureux de voir des exemples d’applications ainsi que le code s’y rapportant.
 Je conseille ce tutoriel.
 </p>
+                    </div>
                 </div>
 
                                
