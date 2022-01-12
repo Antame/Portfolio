@@ -1,8 +1,6 @@
 
-
-<?ini_set('SMTP',SMTP_HOST);
-ini_set('smtp_port',SMTP_PORT);
-ini_set('sendmail_from',MAIL_ADMIN);
+<?php
+require_once "./config.php";
 
 var_dump($_POST);
 
@@ -11,16 +9,16 @@ if(!empty($_POST)){
     
     $thename = htmlspecialchars(trim($_POST['thename']),ENT_QUOTES);
     $themail = filter_var(trim($_POST['themail']), FILTER_VALIDATE_EMAIL);
-    $thetext = strip_tags(trim($_POST['thetext']));
+    $themessage = strip_tags(trim($_POST['themessage']));
     
-    if(empty($thename) || !$themail || empty($thetext)){
+    if(empty($thename) || !$themail || empty($themessage)){
         
         $message = "Votre mail n'a pas été envoyé, veuillez recommencer";
     }else{
 
         $aQui   = MAIL_ADMIN;
-        $sujet = 'Réponse à votre formulaire 23-mail';
-        $message = $thename." à écrit : \n".$thetext;
+        $sujet = 'Réponse à votre formulaire ';
+        $message = $thename." à écrit : \n".$themessage;
         $entete = array(
              'From' => "$themail",
              'Reply-To' => "$themail",
@@ -74,7 +72,7 @@ if(!empty($_POST)){
                 <h3 class="description">Pour tout renseignement/ devis:</br>
                 <img src="./images/boutonContact-us.png" alt="bouton clic" width="300px"> </h3>
     <?php
-    if(isset($message)):
+    if(isset($themessage)):
     ?>
     <h3><?=$message?></h3>
     
@@ -85,7 +83,7 @@ if(!empty($_POST)){
                     <div><input name="thename" type="text" id="frm1_nom" size="100" placeholder="VOTRE NOM"/></div>
                                  
                     <div><input name="themail" type="email" id="frm1_email" size="50" placeholder="VOTRE EMAIL"/></div>
-                    <div><label for="frm1_message"></label><textarea name="message" id="frm1_message" cols="40" rows="5" placeholder="Votre demande: "></textarea></div>
+                    <div><label for="frm1_message"></label><textarea name="themessage" id="frm1_message" cols="40" rows="5" placeholder="Votre demande: "></textarea></div>
                     <div><input type="submit" id="frm1_submit" value="Envoyer votre message" /></div>
                 </form>
         
