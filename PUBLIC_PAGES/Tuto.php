@@ -4,6 +4,7 @@
         <title>PORTFOLIO</title>
         <link href="./style.css" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <meta charset="8-UTF">
         <meta name="viewport" content="width= device-width, initial-scale=1.0">
 
@@ -23,29 +24,28 @@
                 <!--<p class="entete"><img src="" alt=""></p>-->
                 <div class="tuto"><p>Lors de la conception d’une page web, il est primordial de réfléchir à la manière dont les divers éléments constituant cette page y seront disposés.<br> La page web est l’interface qui permet de communiquer , de présenter un contenu au visiteur. Le commanditaire du site souhaitera donner une image particulière, un look à son site afin de se présenter au mieux à son public. Il va de soi, qu’il faut maitriser la notion du positionnement afin de rendre un rendu visuel fidèle à la demande de notre client. Maitriser le positionnement, permet de résoudre bien nombre de bugs. 
                 Voici les liens de deux tutos qui vous permettront de vous familiariser avec cette notion : </p><br>
-                </div><br>
-                <div class="tuto">
-<<<<<<< HEAD
+                <br>
+                <div class="item1">
                     
-                    <a href="https://www.alsacreations.com/article/lire/53-Guide-de-survie-du-positionnement-CSS.html"><h2> Guide de survie du positionnement</h2></a>
+                    <a href="https://www.alsacreations.com/article/lire/53-Guide-de-survie-du-positionnement-CSS.html"target="_blank">
+                        <h2>
+                             Guide de survie du positionnement <button style="font-size:30px; color : pink"><i class="fa fa-caret-right"></i><i class="fa fa-caret-right"></i></button>
+                        </h2>
+                    </a>
                     <p>Ce tutoriel est normalement destiné aux personnes ayant déjà des notions de base sur ce sujet.
 Mais hélas, le sujet est traité de manière superficiel. Le texte ne présente aucun exemple, aucune ligne de code ni visuel. Le sujet n’a pas été paufiné et je ne conseille donc pas ce tutoriel.
+<a href="https://www.alsacreations.com/article/lire/53-Guide-de-survie-du-positionnement-CSS.html"target="_blank">Lire...</a> 
+
 </p>
-                    <a href="https://www.vulgarisation-informatique.com/css-positionnement.php"><h2>Positionnement et affichage CSS</h2></a>
+
+
+
+
+                    <a href="https://www.vulgarisation-informatique.com/css-positionnement.php" target="_blank">
+                        <h2>Positionnement et affichage CSS <button style="font-size:30px; color : pink"><i class="fa fa-caret-right"></i><i class="fa fa-caret-right"></i></button></h2></a>
                     <p>Dans ce tutoriel, l’explication est assez claire, simple et fourni.
-=======
-                    <div>
-                        <a href="https://www.alsacreations.com/article/lire/53-Guide-de-survie-du-positionnement-CSS.html">tuto1: Guide de survie du positionnement</a>
-                            <p>Ce tutoriel est normalement destiné aux personnes ayant déjà des notions de base sur ce sujet.
-Mais hélas, le sujet est traité de manière superficiel. Le texte ne présente aucun exemple, aucune ligne de code ni visuel. Le sujet n’a pas été paufiné et je ne conseille donc pas ce tutoriel.
-</p>
-                    </div>
-                    <di>
-                        <a href="https://www.vulgarisation-informatique.com/css-positionnement.php">tuto2 :Positionnement et affichage CSS</a>
-                        <p>Dans ce tutoriel, l’explication est assez claire, simple et fourni.
->>>>>>> d09d6724780a61ed0d9b37538ef8a97e37c8a96d
 L’apprenti sera heureux de voir des exemples d’applications ainsi que le code s’y rapportant.
-Je conseille ce tutoriel.
+Je conseille ce tutoriel.  <a href="https://www.vulgarisation-informatique.com/css-positionnement.php" target="_blank">Lire...</a>
 </p>
                     </div>
                 </div>

@@ -23,21 +23,15 @@ if(!isset($_GET['pg'])){
         case "CV":
             include_once "PUBLIC_PAGES/CV.php";
             break;
-        case "Gallerie":
-            include_once "PUBLIC_PAGES/Gallerie.php";
+        case "Galerie":
+            include_once "PUBLIC_PAGES/Galerie.php";
             break;
         case "Tuto":
             include_once "PUBLIC_PAGES/Tuto.php";
             break;
-<<<<<<< HEAD
             case "Admin":
                 include_once "PUBLIC_PAGES/Admin.php";
                 break;
-=======
-        case "Admin":
-            include_once "PUBLIC_PAGES/Admin.php";
-            break;
->>>>>>> d09d6724780a61ed0d9b37538ef8a97e37c8a96d
 
     default:
         include_once "PUBLIC_PAGES/Accueil.php";

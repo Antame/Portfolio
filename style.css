@@ -5,7 +5,7 @@ body{
     background-attachment: fixed;
     
 }
-#global {
+#global {display: flexbox;
 	width:1280px;
 	margin: 0px auto;
     
@@ -172,6 +172,7 @@ main h1 {
     margin-bottom: 100px;
 
 }
+
 .service .itemA{
     width:100px;
     height: 200px;
@@ -179,6 +180,15 @@ main h1 {
     border-left: 2px solid whitesmoke;
 
 }
+.service .itemB{
+    width:100px;
+    height: 200px;
+    text-align: center;
+    border-left: 2px solid whitesmoke;
+
+}
+.service .item1{}
+
 .lv{
     display: inline-block;
 
@@ -195,33 +205,23 @@ main h1 {
     margin: auto 100px;
     padding : auto;
 }
-.gallerie{      
-    display: grid;
+.galerie{      
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
     display: inline-block;
     width: 100%;
     height:auto;
     margin:  auto  100px;
     padding: auto 100px;
-        
-    grid-template-columns: 1fr 1fr 1fr ;
-    grid-template-rows: 1fr; 
-    gap: 10px;
-<<<<<<< HEAD
+  
     
     
-=======
-    text-align: center;
-    align-items: center;
-    justify-content: center;
- 
-
->>>>>>> d09d6724780a61ed0d9b37538ef8a97e37c8a96d
 }
-.grid-item{
+.galerie .grid-item{
     background-color:  rgb(219, 198, 198);
     width: 400px; height: 300px;
-    overflow: hidden;
-    float: left;
+       
     gap: 15px;
     margin: auto  auto ; padding: auto;
     border: 1px solid white;
@@ -250,60 +250,60 @@ main h1 {
     box-shadow: 0 5px 15px rgba(0,0,0,.5);
     text-align: left;
     margin-bottom: 100px;
-<<<<<<< HEAD
     
-=======
-    gap: 10px;
->>>>>>> d09d6724780a61ed0d9b37538ef8a97e37c8a96d
 
 
 }
 .liens a{
-<<<<<<< HEAD
     text-decoration:none;
     display: inline-block;
     font-size: 30px;
     color: rgb(1, 1, 87);
     margin:40px;
     border-bottom: 1px solid whitesmoke;
-=======
-    text-decoration: none;
-    display: inline-block;
-    font-size: 30px;
-    color: rgb(1, 1, 44);
-    margin:40px;
-   border-bottom: rgb(252, 224, 224) solid 2px;
->>>>>>> d09d6724780a61ed0d9b37538ef8a97e37c8a96d
     
 }
 .tuto {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
-    grid-template-areas:
-   
-    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: : center;;
     background-color: rgb(219, 198, 198);
     color:rgb(1, 1, 87);
+
 }
-<<<<<<< HEAD
+.tuto .item1{background-color: rgb(219, 198, 198);
+    color:rgb(1, 1, 87);
+
+}
 .tuto a{width: 100px; height:100px;
     font-size: 20px;
     color: white;
     font-weight: bold;
     text-decoration: none;
     text-align: center;
-=======
-.tuto a {width: 100px; height:100px;
-    background-color:hsla(200, 21%, 8%, 0.6)
->>>>>>> d09d6724780a61ed0d9b37538ef8a97e37c8a96d
     
 }
 .tuto p {
     font-size: 20px;
     color:rgb(4, 15, 78);
-    text-align: justify;
+    text-align: center;
 }
+.arrow-1 {
+    width:100px;
+    height:30px;
+    display: flex;
+  }
+  .arrow-1:before {
+    content: "";
+    background: currentColor;
+    width:15px;
+    clip-path: polygon(0 10px,calc(100% - 15px) 10px,calc(100% - 15px) 0,100% 50%,calc(100% - 15px) 100%,calc(100% - 15px) calc(100% - 10px),0 calc(100% - 10px));
+    animation: a1 1.5s infinite linear;
+  }
+  @keyframes a1 {
+    90%,100%{flex-grow: 1}
+  }
+  
 
 .contact {
     width: 410px;
@@ -375,7 +375,7 @@ opacity: 0.;}
     color: #A90331;
     border: #A90331 solid 3px;
     background-color: white;
-    border-spacing: ;   
+    
     
 }
 
@@ -436,7 +436,6 @@ opacity: 0.;}
       text-decoration: none;
 
   }
-<<<<<<< HEAD
 
   .footer .button {
       float: right;
@@ -449,6 +448,8 @@ opacity: 0.;}
  
   @media screen and (max-width : 800px){
       #global {
+          
+          display: grid;
           grid-template-columns: 1fr;
           grid-template-areas:
           "entete"
@@ -464,30 +465,65 @@ opacity: 0.;}
       .menu a {
           display: block;}
     
-      .menu li a:hover {
-
-      }
+    
       
       
       main{
-          width :100%
+          display: flex;
+          position: relative;
+          width :100%;
+          flex-wrap: wrap;
+          justify-content: center;
+          flex-direction: column;
       }
       main h1 {
-        width: 95%;
-        position: absolute;
+        width: 100%;
+        position: relative;
         margin-top: 50px;
+        display: flex;
+        font-size: 20px;
+        padding-left: 30px;
       }
+      
 
       .button {
 
       }
       .entete {
-        
+        /*position: relative;*/
+        /*top: 200px;*/
+        /*left:0px;*/
+        width: 100%;
+        height: auto;
+        /*text-align: center;*/
+        display: flex;
+        /*justify-content: center;*/
+        margin: auto;
+        left: -400px;;
+
          
       }
+      .entete img {
+        width: 350px;
+        height: auto;
+        opacity: 0.8;
+        padding: 30px;
+        /* margin: auto; */
+        justify-content: center;
+        border: #A90331 solid 5px;
+    }
       .service {
-        grid-template-columns: 1fr;
-        grid-template-rows: auto;
+          position:absolute;
+          display: grid;
+        grid-template-columns: 1fr ;
+        grid-template-rows: 1fr ;
+        top: 650px;
+        text-align: center;
+        left: 25px;
+        
+    }
+    .service .itemA{ text-align: center;
+
     }
     .gallerie {
         display: grid;
@@ -510,12 +546,18 @@ opacity: 0.;}
 
     }
     .tuto {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: auto;
-        justify-content: center;
-        justify-items: center;
-    }
+        .tuto {
+            display: flex;
+            flex-direction: column;
+            justify-content: : center;;
+            background-color: rgb(219, 198, 198);
+            color:rgb(1, 1, 87);
+        
+        }
+        .tuto .item1{
+            align-items: center;
+            background-color: rgb(219, 198, 198);
+            color:rgb(1, 1, 87);
     .footer{
         text-align: center;
         
@@ -526,6 +568,7 @@ opacity: 0.;}
   @media screen and (min-width:1281px) {
     #global {
         /* définition de la grille de mise en page */
+        flex-wrap: wrap;
         grid-template-columns: 1fr 4fr;
         grid-template-areas:
         "menu entete"
@@ -541,7 +584,7 @@ opacity: 0.;}
 
     .menu ul {
         
-    }
+    
         height:auto; 
     
         
@@ -551,16 +594,10 @@ opacity: 0.;}
     
     .menu a {
         float:none;     
-        padding: 0px ; 
+        padding: 0px ; }
+    }
     
 
-=======
-  .footer .button { 
-      position: absolute;
-      bottom: 20px;
-     left: 20px;
-  }
->>>>>>> d09d6724780a61ed0d9b37538ef8a97e37c8a96d
   
   
 

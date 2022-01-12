@@ -22,63 +22,39 @@
             <main>
                 <h1><strong>< Meta martine : " WebDeVeLOpPeR " ></strong> </h1>
                 <a class="button" href="./?pg=Contact">Contactez-moi</a>
-<<<<<<< HEAD
                 <a class="entete"><img src="./images/webDev.webp" width="400px" alt=""></a>
                
 
 
                 <div class="service">
-                <h2>Mon but est de développer des interfaces web adaptées pour mes clients</h2>
+                
                
                    
                      <div class="grid-itemA">
                                               
-                             <p>Création sites internet</p>
+                             <p>Création sites internet <i class="fa fa-check-circle-o" style="font: size 20px;color:red "></i></p>
                              <span class="lv"> </span>
-                             <p>Web design </p>
+                             <p>Web design <i class="fa fa-check-circle-o" style="font: size 20px; color:red "></i></p>
                              <span class="lv"> </span>
-                             <p>Création logo</p>
+                             <p>Création logo <i class="fa fa-check-circle-o" style="font: size 20px;color:red "></i></p>
 
                                          
-                     </div>
+                    </div>
+                     <div class="grid-item1">
+                        <h2>Création et développement des interfaces web adaptées<h2>
+                    </div>
                      
-                    <div class="grid-itemA">
+                    <div class="grid-itemB">
                         
-                             <p>Analyse des besoins</p> <span class="lv"> </span><p>cohérence visuelle </p><span class="lv"> </span><p> cahier des charges</p>
+                             <p>Analyse des besoins <i class="fa fa-check-circle-o" style="font: size 20px;px;color:red "></i></p>
+                              <span class="lv">
+                             </span><p>cohérence visuelle <i class="fa fa-check-circle-o" style="font: size 20px;px;color:red "></i></p>
+                             <span class="lv"> </span>
+                             <p> cahier des charges <i class="fa fa-check-circle-o" style="font: size 20px;px;color:red "></i></p>
                             
                      </div>
                   
                 </div>
-=======
-                <p class="entete"><img src="./images/webDev.webp" width="400px" alt=""></p>
-             <h2>A propos</h2>
-                
-             
-        
-                <h2> Nos services : </h2>
-               
-
-                <div class="services">
-                     
-                   
-                     <div class="grid-item">
-                         
-                             <img src="" alt="" width=""/><p>Création sites internet </p>
-                         
-                     </div>
-                     <div class="grid-item">
-                         
-                             <img src="" alt="" width=""/><p> Web design</p>
-                        
-                     </div>
-                     <div class="grid-item">
-                         
-                             <img src="" alt="" width=""/> <p>création applications mobiles </p>
-                         
-       
-                    </div>
-                </div>-->
->>>>>>> d09d6724780a61ed0d9b37538ef8a97e37c8a96d
                                       
 
             </main>
@@ -86,7 +62,7 @@
             <?php
             include "footer.php"
             ?> 
-    </div>
+        </div>
         <script>index.js</script>
     </body>
 </html>

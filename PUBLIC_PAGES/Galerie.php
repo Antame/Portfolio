@@ -18,34 +18,15 @@
                 ?>
             </header>        
             <main>
-                <h1>gallerie : Mes réalisations </h1>
+                <h1>galerie : Mes réalisations </h1>
                 <a class="button" href="./?pg=Contact">Contactez-moi</a>
-                <p class="entete"><img src="./images/prefo.jpg" width="400px" alt=""></p>
+                
 
 
-                <div class="gallerie">
-                     
-                   
-                    <div class="grid-item">
-                        <a href="http://martine.webdev-cf2m.be/PREFO/" data-lightbox="" datga-title="">
-                            <img src="./images/prefo.jpg." alt="site de preformation" width="400px"/>
-                        </a>
-                        
-                    </div>
-                    <div class="grid-item">
-                        <a href="#http://martine.webdev-cf2m.be/Stockolm/" data-lightbox="" datga-title="">
-                            <img src="./images/photoStockholm.jpg" alt="Site Stockholm" width="400px"/>
-                        </a>
-                        
-                    </div>
-                    <div class="grid-item">
-                        <a href="#" data-lightbox="" datga-title="">
-                            <img src="./images/neonLight1.jpg" alt="" width="400px"/>
-                        </a>
-                        
-                    </div>
+                <div class="galerie">
 
-                    <div class="container">
+                
+                <div class="container">
     <div class="mySlides">
     <div class="numbertext">1 / 6</div>
     <img src="./images/prefo.jpg." style="width:100%">
@@ -66,6 +47,28 @@
                    
                         
                     </div>
+                     
+                   
+                    <div class="grid-item">
+                        <a href="http://martine.webdev-cf2m.be/PREFO/" target="_blank"  data-lightbox="" datga-title="" >
+                            <img src="./images/prefo.jpg." alt="site de preformation" >
+                        </a>
+                        
+                    </div>
+                    <div class="grid-item">
+                        <a href="#http://martine.webdev-cf2m.be/Stockolm/" target="_blank" data-lightbox="" datga-title="">
+                            <img src="./images/photoStockholm.jpg" alt="Site Stockholm" width="400px"/>
+                        </a>
+                        
+                    </div>
+                    <div class="grid-item">
+                        <a href="#" data-lightbox=" target="_blank"" datga-title="">
+                        <a href="#" data-lightbox=" " datga-title="">
+                            <img src="./images/neonLight1.jpg" alt="" >
+                        </a>
+                        
+                    </div>
+
 
 
 

@@ -1,10 +1,5 @@
-
-
-<?ini_set('SMTP',SMTP_HOST);
-ini_set('smtp_port',SMTP_PORT);
-ini_set('sendmail_from',MAIL_ADMIN);
-
-var_dump($_POST);
+ 
+<?
 
 
 if(!empty($_POST)){
@@ -19,7 +14,7 @@ if(!empty($_POST)){
     }else{
 
         $aQui   = MAIL_ADMIN;
-        $sujet = 'Réponse à votre formulaire 23-mail';
+        $sujet = 'Réponse à votre formulaire';
         $message = $thename." à écrit : \n".$thetext;
         $entete = array(
              'From' => "$themail",
@@ -82,11 +77,11 @@ if(!empty($_POST)){
     endif;
     ?>
                 <form id="form1" name="contact" method="POST" action="" class="contact">
-                    <div><input name="thename" type="text" id="frm1_nom" size="100" placeholder="VOTRE NOM"/></div>
+                    <div><input name="thename" type="text" id="frm1_nom" size="50" placeholder="VOTRE NOM"/>
                                  
-                    <div><input name="themail" type="email" id="frm1_email" size="50" placeholder="VOTRE EMAIL"/></div>
-                    <div><label for="frm1_message"></label><textarea name="message" id="frm1_message" cols="40" rows="5" placeholder="Votre demande: "></textarea></div>
-                    <div><input type="submit" id="frm1_submit" value="Envoyer votre message" /></div>
+                    <input name="themail" type="email" id="frm1_email" size="50" placeholder="VOTRE EMAIL"/>
+                    <textarea name="message" id="frm1_message" cols="40" rows="5" placeholder="Votre demande: "></textarea>
+                    <input type="submit" id="frm1_submit" value="Envoyer votre message" />
                 </form>
         
             </main>
