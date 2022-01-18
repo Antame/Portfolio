@@ -23,7 +23,7 @@
                 
 
 
-                <div class="galerie">
+               
 
                 
                 <div class="container">
@@ -47,27 +47,20 @@
                    
                         
                     </div>
-                     
-                   
-                    <div class="grid-item">
-                        <a href="http://martine.webdev-cf2m.be/PREFO/" target="_blank"  data-lightbox="" datga-title="" >
-                            <img src="./images/prefo.jpg." alt="site de preformation" >
-                        </a>
+
                         
                     </div>
-                    <div class="grid-item">
-                        <a href="#http://martine.webdev-cf2m.be/Stockolm/" target="_blank" data-lightbox="" datga-title="">
-                            <img src="./images/photoStockholm.jpg" alt="Site Stockholm" width="400px"/>
-                        </a>
-                        
+                    <div class="galerie">
+                    <img src="./images/prefo.jpg." alt="site de preformation" width="350px">
+                        <a href="http://martine.webdev-cf2m.be/PREFO/" target="_blank" ></a>
+                    <img src="./images/neonLight1.jpg" alt="" width="350px" >
+                        <a href="#" target="_blank" ></a>
+                        <img src="./images/photoStockholm.jpg" alt="Site Stockholm" width="350px"/><br>
+                        <a href="#http://martine.webdev-cf2m.be/Stockolm/" target="_blank" ></a>
+                    
                     </div>
-                    <div class="grid-item">
-                        <a href="#" data-lightbox=" target="_blank"" datga-title="">
-                        <a href="#" data-lightbox=" " datga-title="">
-                            <img src="./images/neonLight1.jpg" alt="" >
-                        </a>
-                        
-                    </div>
+
+
 
 
 

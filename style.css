@@ -207,42 +207,25 @@ main h1 {
 }
 .galerie{      
     display: flex;
-    flex-wrap: wrap;
     flex-direction: row;
-    display: inline-block;
-    width: 100%;
-    height:auto;
-    margin:  auto  100px;
-    padding: auto 100px;
-  
-    
-    
+    flex-wrap: wrap;
+    background-color: transparent;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 30px;
+ 
 }
-.galerie .grid-item{
-    background-color:  rgb(219, 198, 198);
-    width: 400px; height: 300px;
-       
-    gap: 15px;
-    margin: auto  auto ; padding: auto;
-    border: 1px solid white;
-    justify-content: center;
-    align-items: center;
-    
+      
+.galerie img{
+ box-shadow: 5px 5px 5px grey;
 }
-.grid-item img{
-    
-   
-    padding: 5px;
-    max-height: 350px;
-}
-
 
 .description {text-align: center;
         color: #A90331;
 }
 
 .liens {
-    display: grid;
+    display: flex;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     background-color: rgb(219, 198, 198);
@@ -265,8 +248,8 @@ main h1 {
 }
 .tuto {
     display: flex;
-    flex-direction: column;
-    justify-content: : center;;
+    flex-direction: row;
+    justify-content: center;;
     background-color: rgb(219, 198, 198);
     color:rgb(1, 1, 87);
 
@@ -384,66 +367,58 @@ opacity: 0.;}
     color: white;
 }
 /**************footer*************/
-.footer {display: block;
-    clear: both;
+.footer {display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /*clear: both;*/
     margin-bottom: 50px;
-    position: relative;
     height: 200px;
     background-color: transparent; opacity: 0.75;
-    text-align: right;
+    justify-content: center;
+    align-items: center;
+   
     box-shadow: 0 5px 15px rgba(0,0,0,.75);
 }
-.footer ul {
-        
-    top: 50px;
-    text-align: right;
-        
-  }
+ 
   
-  .footer li {
-    list-style: none;
-    text-align: right;
-    display: inline-block;
-    
-  }
-  
-  .footer li a {
-   display: block;
-    text-align:right;
+  .footer a {
+ 
     padding: 5px;
     margin: 5px;
     color:#A90331;
     width:30px;
     box-shadow: 0 5px 15px rgba(0,0,0,.75);
-
-        
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1em;
+       
   }
   
-  .footer ul li a:hover {
+  .footer a:hover {
     box-shadow: 0 2px 5px rgba(243, 239, 239, 0.3);
     text-decoration:none;
        
   }
   .footer h3 {
-      color: black;
-      padding: 50px;
+      color: rgb(133, 5, 5);
+      padding: 20px;
       
   }
 
-  .footer p a {
-      width: 100px;
-      background-color: black;
-      text-decoration: none;
+  .footer >.footer-item {align-items: center;
 
   }
 
+
   .footer .button {
-      float: right;
+     
       width: 100px;
       height: 30px;
       margin-top: 30px;
-      text-align: center;
+      color: aliceblue;
+      text-align: right;
       line-height: 30px;
+      align-items: flex-end;
   }
  
   @media screen and (max-width : 800px){
